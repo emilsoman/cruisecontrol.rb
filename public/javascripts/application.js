@@ -94,13 +94,12 @@ $(document).ready(function() {
       $('#project_source_control_branch').show('fast');
     }
     else {
-      $('#project_source_control_branch').hide('fast'); 
+      $('#project_source_control_branch').hide('fast');
     }
   }
 
-  debugger ;
   showOrHideBranchField($('#project_source_control_source_control').first().val());
   $('#project_source_control_source_control').change(function() {
-    showOrHideBranchField(this.value); 
+    showOrHideBranchField(this.value);
   });
 });

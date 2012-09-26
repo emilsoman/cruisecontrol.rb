@@ -10,6 +10,7 @@ class Configuration
   @serialized_build_timeout = 3.hour
   @git_load_new_changesets_timeout = 5.minutes
   @build_history_limit = 30
+  @max_file_display_length = 100.kilobytes
   @db_username = "root"
   @db_password = ""
 
